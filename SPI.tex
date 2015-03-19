@@ -1,0 +1,289 @@
+\documentclass[10pt, compress]{beamer}
+
+\usetheme{m}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{minted}
+
+\usemintedstyle{trac}
+
+\title{Software in the public interest}
+\subtitle{}
+\date{March 18, 2015}
+\author{Fernando Ellis - Brendan Whitfield}
+\institute{}
+
+\begin{document}
+
+\maketitle
+
+% begin slides
+
+\begin{frame}[fragile]
+  \frametitle{What is SPI}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{images/spi.jpg}
+    \\ \vspace{4mm}
+    Non-profit fiscal sponsor for FOSS licensed projects
+    \\ \vspace{4mm}
+    "SPI does not own, govern or control the associated projects"
+    \end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{What is SPI}
+  \begin{center}
+    Created in June 16, 1997 for Debian to take donations
+    \\ \vspace{4mm}
+    President: \textbf{Bdale Garbee} (of Debian)
+    \\
+    Vice-President: \textbf{Joerg Jaspert}
+    \\
+    Secretary: \textbf{Martin Michlmayr}
+    \\
+    Treasurer: \textbf{Michael Schultheiss}
+
+    \vspace{4mm}
+    Directors:\\
+    \textbf{Robert Brockway}\\
+    \textbf{Joshua D. Drake}\\
+    \textbf{Jonathan McDowell}\\
+    \textbf{Gregers Petersen}\\
+    \textbf{Martin Zobel-Helas}
+    
+    \vspace{4mm}
+    Legal Consultant: \textbf{Software Freedom Law Center}
+  \end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{What is SPI}
+    \textbf{Becoming a member:}
+    \\ \vspace{4mm}
+    \textbf{Contributing Members:}
+    \\
+    \begin{itemize}
+    \item Board members are contributing members by default
+    \item Must have made significant contributions to the free software community
+    \item Membership committee fairly reviews necessary information to approve above status
+    \item If a member doesn't contribut enough, they get labeled as a non-contributing member
+    \end{itemize}
+    \textbf{Non-contributing Members:}
+    \\
+    \begin{itemize}
+    \item Non-contributing membership must be applied for
+    \item This membership does not expire
+    \item Non-contributing members can submit an application with a portfolio to become contributing members
+    \end{itemize}
+
+\end{frame}
+
+
+\section{Associated Projects}
+
+\begin{frame}[fragile]
+  \frametitle{Associated Projects}
+  \begin{center}
+  	\begin{columns}
+  	  \column{0.4\textwidth}
+	  \begin{itemize}
+		\item 0 AD
+		\item ankur.org.in
+		\item aptosid
+		\item Arch Linux
+		\item Chakra
+		\item Debian
+		\item Drizzle
+		\item FFmpeg
+		\item Fluxbox
+		\item freedesktop.org
+		\item FreedomBox
+		\item Fresco
+		\item Gallery
+	  \end{itemize}
+	  \column{0.4\textwidth}
+	  \begin{itemize}
+		\item GNUstep
+		\item GNU TeXmacs
+		\item haskell.org
+		\item The HeliOS Project
+		\item Jenkins
+		\item LibreOffice
+		\item madwifi-project.org
+		\item MinGW
+		\item OFTC
+		%\item Open Bioinformatics Foundation
+		\item Open Voting Foundation
+		\item OpenEmbedded
+	  \end{itemize}
+	  \column{0.4\textwidth}
+	  \begin{itemize}
+		\item OpenVAS
+		\item OpenWRT
+		\item Open64
+		\item OSUNIX
+		\item Path64
+		\item Postgresql
+		\item Privoxy
+		\item Sproutcore
+		%\item Swathanthra Malayalam Computing
+		\item The Mana World
+		\item TideSDK
+		\item Tux4Kids
+		\item Yafaray
+	  \end{itemize}
+	\end{columns}
+  \end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Associated Projects}
+  \begin{center}
+    \includegraphics[width=0.3\textwidth]{images/debian.png}
+    \\ \vspace{4mm}
+    For Debian, SPI serves the following functions
+    \\ \vspace{4mm}
+    \textbf{Accepting donations}
+    \\
+    \textbf{Holding substantial assets}
+    \\
+    \textbf{Holding domain names}
+    \\
+    \textbf{Holding trademarks}
+    \end{center}
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \frametitle{Associated Projects}
+    \textbf{Accepting donations}\\
+    SPI will Hold funds on behalf of the project. Funds and assets may be freely transferred to any other US non-profit.
+    
+    \vspace{4mm}
+    
+    \textbf{Holding substantial assets}\\
+    SPI can hold legal ownership of equipment, software and other assets valued at \$300 or more.
+    
+    \vspace{4mm}
+    
+    \textbf{Holding Intangible Assets}\\
+    Domain names and trademarks
+    
+    \vspace{4mm}
+    
+    \textbf{Signing Contracts}\\
+    Can sign on behalf of the project for things such as venues and insurance.
+
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \frametitle{Associated Projects}
+    \textbf{Becoming an associated project}
+    \\ \vspace{4mm}
+    After informal discussion between the project and board members, the board will vote based on the following criteria:
+    
+    \begin{itemize}
+      \item Is the project a genuine Free Software community project?
+      \item Does the project have an established development community?
+      \item Is the project used by a broad audience?
+    \end{itemize}
+    \vspace{1mm}
+    All projects are required to have a \textbf{Liaison} to instruct SPI of the project's wishes. Liaisons can also act as advisors during board meetings.
+\end{frame}
+
+
+\section{Communication}
+
+
+\begin{frame}[fragile]
+  \frametitle{Communication}
+    Updates can be received via the  \href{http://lists.spi-inc.org/listinfo/spi-announce}{\alert{SPI-Announce}} mailing list
+    \\ \vspace{4mm}
+    Meetings are held quarterly via IRC in \textbf{\#spi} (\href{http://www.spi-inc.org/meetings/logs/2014/2014-01-09-log.txt}{\alert{Sample meeting log}})
+    \\ \vspace{4mm}
+    \begin{minted}[fontsize=\small]{latex}
+12:06 #spi: < Noodles> !vote yes
+12:06 #spi: < Solver> !vote yes
+12:06 #spi: < schultmc> !vote yes
+12:06 #spi: < zobel> !vote yes
+12:06 #spi: < Clint> !vote yes
+12:06 #spi: < bdale> !vote abstain
+    \end{minted}
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+  \frametitle{Communication}
+  \begin{center}
+    Annual reports are published, the latest of which is   \href{http://spi-inc.org/corporate/annual-reports/2012.pdf}{\alert{from 2012}}
+    \\ \vspace{8mm}
+    Total Income: \textbf{\$245,451.24}
+    \\
+    Total Expenses: \textbf{\$147,750.00}
+    \\ \vspace{6mm}
+    \hrule
+    \vspace{3mm}
+    Net Income: \textbf{\$97,701.24}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \frametitle{Communication}
+  \begin{center}
+    \begin{table}
+      \begin{tabular}{lrr}
+        \toprule
+        Member & Income & Expenses\\
+        \midrule
+Arch Linux & 48,48.36 & 470.30\\
+Debian & 45,314.04 & 24,604.12\\
+FFmpeg & 3.14 & 0.64\\
+Fluxbox & 1,669.85 & 674.85\\
+FreeDesktop.org & 27,300.00 & -\\
+Haskell & 13,001.22 & 161.71\\
+Jenkins & 13,306.10 & 2,262.20\\
+LibreOffice & 30,934.00 & 18,552.52\\
+OpenOffice.org & 986.00 & 5.19\\
+OpenWrt & 670.00 & 729.77\\
+PostgreSQL & 10,795.43 & 18,690.85\\
+SPI 5\% & 2,592.26 & -\\
+SPI General & 17,703.05 & -\\
+YafaRay & 150.00 & 139.62\\
+        \bottomrule
+      \end{tabular}
+    \end{table}
+  \end{center}
+\end{frame}
+
+
+\plain{}{Questions?}
+
+
+\begin{frame}{Summary}
+
+  All quotations from
+  
+  \begin{center}\url{spi-inc.org/}\end{center}
+
+  Get the source of this theme and the demo presentation from
+
+  \begin{center}\url{github.com/matze/mtheme}\end{center}
+
+  The theme \emph{itself} is licensed under a
+  \href{http://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons
+  Attribution-ShareAlike 4.0 International License}.
+
+  \begin{center}\ccbysa\end{center}
+
+\end{frame}
+
+
+% end slides
+
+
+\end{document}
+
